@@ -67,21 +67,21 @@ hr {
 
 a {
   /* 20. Make link text color navy blue (look up the hex code) */
-  color: ;
+  color: #000080;
   /* 21. Set the text-decoration to none for links */
-  text-decoration: ;
+  text-decoration: none;
 }
 
-/* 22. Set style for links using the :hover pseudoclass */
- {
+a :hover/* 22. Set style for links using the :hover pseudoclass */ 
+{
   /* 23. Change the color of links to azure on mouseover */
-  
+  color: #f0ffff;
   /* 24. Set the text-decoration to underline for links on mouseover */
-  
+  text-decoration: underline;
 }
 
 .signin {
-  background-color: #f1f1f1
+  background-color: #f1f1f1;
   /* 25. Align the text for the section with class "signin" to be centered */
-  
+  text-align: center;
 }
